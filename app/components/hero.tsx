@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-
 export default function Hero() {
   return (
     <div>
@@ -21,9 +21,9 @@ export default function Hero() {
                 design, and bringing ideas to life with creative solutions.
               </p>
               <div className="button-container">
-                <a href="#contact" aria-label="Contact Me">
+                <Link href="#contact" aria-label="Contact Me">
                   <button className="contact-button">Contact</button>
-                </a>
+                </Link>
               </div>
             </div>
             {/* Image Section */}

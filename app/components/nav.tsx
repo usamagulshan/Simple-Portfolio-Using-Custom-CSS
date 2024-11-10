@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Nav() {
@@ -13,19 +14,19 @@ export default function Nav() {
   <div className="navbar">
     <header className="header">
       <div className="container">
-        <a href="#" className="logo">
+        <Link href="#" className="logo">
           <span className="logo-text">Gulshan Corporation</span>
-        </a>
+        </Link>
         <nav className="nav-links">
-          <a href="/" className="nav-link">
+          <Link href="/" className="nav-link">
             Home
-          </a>
-          <a href="#about" className="nav-link">
+          </Link>
+          <Link href="#about" className="nav-link">
             About
-          </a>
-          <a href="#contact" className="nav-link">
+          </Link>
+          <Link href="#contact" className="nav-link">
             Contact
-          </a>
+          </Link>
         </nav>
       
       </div>
