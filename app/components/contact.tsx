@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Contact() {
@@ -27,7 +28,7 @@ export default function Contact() {
               </div>
               <div className="email-phone">
                 <h3>EMAIL</h3>
-                <a href="mailto:example@email.com">example@email.com</a>
+                <Link href="mailto:example@email.com">example@email.com</Link>
                 <h3>PHONE</h3>
                 <p>123-456-7890</p>
               </div>
