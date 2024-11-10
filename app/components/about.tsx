@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";  // Import Link from next/link
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title></title>
+        <title>About Me</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         {/* About Section */}
@@ -37,6 +38,9 @@ export default function About() {
                   atque expedita ut, reprehenderit praesentium! Nihil, hic.
                 </p>
                 {/* CV Button */}
+                <Link href="/cv">
+                  <a className="cv-button">Download CV</a> {/* Use <Link /> and <a> inside */}
+                </Link>
               </div>
             </div>
           </section>
