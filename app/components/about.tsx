@@ -38,7 +38,7 @@ export default function About() {
                   atque expedita ut, reprehenderit praesentium! Nihil, hic.
                 </p>
                 {/* CV Button */}
-                <Link href="/cv">
+                <Link href="/cv.png">
                   <a className="cv-button">Download CV</a> {/* Use <Link /> and <a> inside */}
                 </Link>
               </div>
